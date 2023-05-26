@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Gilroy-LightItalic';
+    src:url('../font/Gilroy-LightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-RegularItalic';
+    src:url('../font/Gilroy-RegularItalic.ttf') format('truetype');
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+#hb{
+   transform: translate(50px, 70px); 
+   position: absolute;
+}
+#hb1{
+    transform: translate(1070px, 70px); 
+    position: absolute;
+ }
+#p{
+    font-family:Gilroy-RegularItalic;
+    width: 750;
+    transform: translate(710px,650px);
+    color: rgb(255, 25, 228);
+    position: absolute;
+}
+#p1{
+    font-family:Gilroy-RegularItalic;
+    width: 600;
+    font-size: 14pt;
+    transform: translate(50px,650px);
+    color: rgb(255, 25, 228);
+    position: absolute;
+
+}
+#p2{
+    font-family:Gilroy-RegularItalic;
+    width: 600;
+    transform: translate(50px,700px);
+    color: rgb(255, 25, 228);
+    position: absolute;
+}
+#p3{
+    font-family:Gilroy-RegularItalic;
+   
+    font-size: 14pt;
+    transform: translate(50px,950px);
+    color: rgb(255, 25, 228);
+    position: absolute;
+}
+#p4{
+    font-family:Gilroy-RegularItalic;
+   
+    font-size: 14pt;
+    transform: translate(50px,1550px);
+    color: rgb(255, 25, 228);
+    position: absolute;
+}
+
+#w1{
+    transform: translate(50px,1000px);
+    position: absolute;
+}
+#w2{
+    transform: translate(800px,1000px);
+    position: absolute;
+}
+
+/* #w3{ */
+    /* transform: translate(50px,1500px); */
+    /* position: absolute; */
+/* } */
+#s1{
+    transform: translate(0px,1600px);
+    position: absolute;
+}
+#s2{
+    transform: translate(600px,1600px);
+    position: absolute;
+}
+#s3{
+    transform: translate(1200px,1600px);
+    position: absolute;
+}
+#s4{
+    transform: translate(1600px,1600px);
+    position: absolute;
+}
+/* .lb1{
+    transform: translate(50px,1000px);
+    position: absolute;
+} */
+

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Gilroy-LightItalic';
+    src:url('../font/Gilroy-LightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-RegularItalic';
+    src:url('../font/Gilroy-RegularItalic.ttf') format('truetype');
+}
+body{
+    background-color: rgb(255, 20, 216);
+}
+
+#about1{
+    font-family:Gilroy-RegularItalic;
+    /* width: 650; */
+    font-size: 45pt;
+    transform: translate(700px,250px);
+    color: rgb(255, 255, 255);
+}
+#about2{
+    font-family:Gilroy-RegularItalic;
+    /* width: 650; */
+    font-size: 45pt;
+    transform: translate(460px,180px);
+    color: rgb(255, 255, 255);
+}
+#la{
+    top: -250px;
+    left: 20px;
+    /* position: absolute; */
+    position: fixed;
+    transform: rotate(2deg);
+}
