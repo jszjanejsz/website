@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Gilroy-LightItalic';
-    src:url('../font/Gilroy-LightItalic.ttf') format('truetype');
+    src:url('font/Gilroy-LightItalic.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Gilroy-RegularItalic';
-    src:url('../font/Gilroy-RegularItalic.ttf') format('truetype');
+    src:url('font/Gilroy-RegularItalic.ttf') format('truetype');
 }
 body{
     background-color: rgb(255, 20, 216);

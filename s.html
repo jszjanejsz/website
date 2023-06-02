@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <title>HTML Basics Demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="../image/hekti lloty.png">
+    <link rel="stylesheet" href="s.css">
+    
+</style>
+<bady>
+
+  <style>
+    #la:hover img {
+       animation: moveUpDown 0.5s infinite alternate;}
+       
+       @keyframes moveUpDown {
+       from {transform: translateY(0);
+       }
+       to {
+       transform: translateY(15px);
+       }
+       }
+           
+   </style>
+
+<a href="index.html">
+    
+    <div id="la">
+        <img height="400"  src="image/拉链-08-08.png"  alt="la" />
+    </div>
+      
+</a>
+    
+<div id="p1">
+ <p>
+  Smart
+ </p>
+</div>
+
+<div id="p2">
+  <p>
+  Designers : Jane
+  </p>
+ </div>
+
+<div id="p3">
+  <p>
+    2022.11
+  </p>
+  </div>
+
+<div id="p4">
+  <p>
+    This is a book about Smart.
+    Smart: is a predominantly young group in China. In the 1980s, Japanese visual culture became popular in China, and was followed and imitated by most Chinese teenagers, forming an online family called the Chinese online "visual family". 
+  </p>
+</div>
+
+<div id="p5">
+  <p>
+    Calendar
+  </p>
+</div>
+
+<div id="i1">
+  <img height="400"  src="image/杀马特/1 (14).jpg"  alt="i1" />
+</div>
+
+<div id="i2">
+  <img height="250"  src="image/杀马特/1 (4).jpg"  alt="i1" />
+</div>
+
+<div id="i3">
+  <img height="250"  src="image/杀马特/1 (6).jpg"  alt="i1" />
+</div>
+
+<div id="i4">
+  <img height="250"  src="image/杀马特/1 (7).jpg"  alt="i1" />
+</div>
+
+<div id="i5">
+  <img height="250"  src="image/杀马特/1 (13).jpg"  alt="i1" />
+</div>
+
+<div id="i6">
+  <img height="250"  src="image/杀马特/1 (16).jpg"  alt="i1" />
+</div>
+
+<div id="i7">
+  <img height="250"  src="image/杀马特/1 (17).jpg"  alt="i1" />
+</div>
+
+<div class="slideshow-container">
+  <div class="slideshow">
+  <img src="image/杀马特/组 16.png" alt="Image 1" class="active">
+        <img src="image/杀马特/组 15.png" alt="Image 2">
+        <img src="image/杀马特/组 14.png" alt="Image 3">
+      <img src="image/杀马特/组 13.png" alt="Image 4">
+      <img src="image/杀马特/组 12.png" alt="Image ">
+      <img src="image/杀马特/组 11.png" alt="Image ">
+      <img src="image/杀马特/组 10.png" alt="Image ">
+      <img src="image/杀马特/组 9.png" alt="Image ">
+      <img src="image/杀马特/组 8.png" alt="Image ">
+      <img src="image/杀马特/组 7.png" alt="Image ">
+      <img src="image/杀马特/组 6.png" alt="Image ">
+      <img src="image/杀马特/组 5.png" alt="Image ">
+      <img src="image/杀马特/组 4.png" alt="Image ">
+      <img src="image/杀马特/组 3.png" alt="Image ">
+      <img src="image/杀马特/组 2.png" alt="Image ">
+      <img src="image/杀马特/组 1.png" alt="Image ">
+  </div>
+  <div class="prev" onclick="changeSlide(-1)">&#10094;</div>
+  <div class="next" onclick="changeSlide(1)">&#10095;</div>
+</div>
+
+<script>
+  var slideIndex = 0;
+  var slides = document.querySelectorAll('.slideshow img');
+
+  function changeSlide(n) {
+      slideIndex += n;
+      if (slideIndex < 0) {
+          slideIndex = slides.length - 1;
+      } else if (slideIndex >= slides.length) {
+          slideIndex = 0;
+      }
+      updateSlide();
+  }
+
+  function updateSlide() {
+      var slideWidth = slides[0].clientWidth;
+      var translateX = -slideIndex * slideWidth;
+      document.querySelector('.slideshow').style.transform = `translateX(${translateX}px)`;
+  }
+</script>
+
+<div id="i8">
+  <img height="500"  src="image/杀马特/1 (5).jpg"  alt="i1" />
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 

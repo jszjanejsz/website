@@ -11,7 +11,7 @@
     
 <div id="breaking">
 <video width="450"  muted autoplay playsinline loop>
-    <source src="../video/大蝴蝶2.mp4" type="video/mp4">
+    <source src="video/大蝴蝶2.mp4" type="video/mp4">
 </video>
 </div>
 <div id="p">
@@ -26,12 +26,114 @@
 </div>
 <div id="p2">
     <p>
-        Designer : Jane Phoebe Loki
+        Designer : Jane Phoebe Loki Kira
+    </p>
+</div>
+<div id="p3">
+    <p>
+        Breaking Electronic Music Festival
+    </p>
+</div>
+<div id="p4">
+    <p>
+        Live
+    </p>
+</div>
+<div id="p5">
+    <p>
+        Materials
     </p>
 </div>
 
-<div id="b">
-    <!-- <img height="600" src="../image/破茧/7.jpg" alt="b" /> -->
+
+<style>
+    #la:hover img {
+       animation: moveUpDown 0.5s infinite alternate;}
+       
+       @keyframes moveUpDown {
+       from {transform: translateY(0);
+       }
+       to {
+       transform: translateY(15px);
+       }
+       }
+           
+   </style>
+<a href="index.html">
+    
+    <div id="la">
+        <img height="400"  src="image/拉链-08-08.png"  alt="la" />
+    </div>
+      
+  </a>
+
+<div id="i1">
+    <img height="750"  src="image/破茧/物料集合.png"  alt="i1" />
 </div>
+
+<div id="i2">
+    <img height="400"  src="image/破茧/1 (2).jpg"  alt="i2" />
+</div>
+
+<div id="i3">
+    <img height="400"  src="image/破茧/1 (5).jpg"  alt="i2" />
+</div>
+
+
+<div id="i4">
+    <img height="300"  src="image/破茧/1 (10).jpg"  alt="i1" />
+</div>
+
+<div id="i5">
+    <img height="300"  src="image/破茧/1 (1).jpg"  alt="i1" />
+</div>
+
+<div id="i6">
+    <img height="300"  src="image/破茧/1（13）.jpg"  alt="i1" />
+</div>
+
+<div id="i7">
+    <img height="300"  src="image/破茧/1（14）.jpg"  alt="i1" />
+</div>
+
+<div id="video">
+    <p> Video </p>
+</div>
+  
+<div class="slideshow-container">
+    <div class="slideshow">
+    <img src="image/破茧/7.jpg" alt="Image 1" class="active">
+        <img src="image/破茧/8.jpg" alt="Image 2">
+        <img src="image/破茧/9.jpg" alt="Image 3">
+        <img src="image/破茧/1 (8).jpg" alt="Image 4">
+        <img src="image/破茧/1 (6).jpg" alt="Image ">
+        <img src="image/破茧/1（11）.jpg" alt="Image ">
+        
+    </div>
+    <div class="prev" onclick="changeSlide(-1)">&#10094;</div>
+    <div class="next" onclick="changeSlide(1)">&#10095;</div>
+</div>
+
+<script>
+    var slideIndex = 0;
+    var slides = document.querySelectorAll('.slideshow img');
+
+    function changeSlide(n) {
+        slideIndex += n;
+        if (slideIndex < 0) {
+            slideIndex = slides.length - 1;
+        } else if (slideIndex >= slides.length) {
+            slideIndex = 0;
+        }
+        updateSlide();
+    }
+
+    function updateSlide() {
+        var slideWidth = slides[0].clientWidth;
+        var translateX = -slideIndex * slideWidth;
+        document.querySelector('.slideshow').style.transform = `translateX(${translateX}px)`;
+    }
+</script>
+
 
  

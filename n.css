@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Gilroy-LightItalic';
-    src:url('../font/Gilroy-LightItalic.ttf') format('truetype');
+    src:url('font/Gilroy-LightItalic.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Gilroy-RegularItalic';
-    src:url('../font/Gilroy-RegularItalic.ttf') format('truetype');
+    src:url('font/Gilroy-RegularItalic.ttf') format('truetype');
 }
 body{
     background-color: rgb(0, 0, 0);
 }
 #hb{
-   transform: translate(50px, 70px); 
+   transform: translate(80px, 70px); 
    position: absolute;
 }
 #hb1{
@@ -18,25 +18,34 @@ body{
     position: absolute;
  }
 #p{
-    font-family:Gilroy-RegularItalic;
-    width: 750;
-    transform: translate(710px,650px);
+    font-family:Gilroy-LightItalic;
+    width: 800;
+    transform: translate(660px,650px);
     color: rgb(255, 25, 228);
     position: absolute;
 }
 #p1{
     font-family:Gilroy-RegularItalic;
     width: 600;
+    font-size: 18pt;
+    transform: translate(80px,650px);
+    color: rgb(255, 25, 228);
+    position: absolute;
+
+}
+#p12{
+    font-family:Gilroy-LightItalic;
+    width: 600;
     font-size: 14pt;
-    transform: translate(50px,650px);
+    transform: translate(80px,700px);
     color: rgb(255, 25, 228);
     position: absolute;
 
 }
 #p2{
-    font-family:Gilroy-RegularItalic;
+    font-family:Gilroy-LightItalic;
     width: 600;
-    transform: translate(50px,700px);
+    transform: translate(80px,730px);
     color: rgb(255, 25, 228);
     position: absolute;
 }
@@ -44,7 +53,7 @@ body{
     font-family:Gilroy-RegularItalic;
    
     font-size: 14pt;
-    transform: translate(50px,950px);
+    transform: translate(80px,950px);
     color: rgb(255, 25, 228);
     position: absolute;
 }
@@ -52,10 +61,19 @@ body{
     font-family:Gilroy-RegularItalic;
    
     font-size: 14pt;
-    transform: translate(50px,1550px);
+    transform: translate(80px,1550px);
     color: rgb(255, 25, 228);
     position: absolute;
 }
+#p5{
+    font-family:Gilroy-RegularItalic;
+   
+    font-size: 14pt;
+    transform: translate(80px,1950px);
+    color: rgb(255, 25, 228);
+    position: absolute;
+}
+
 
 #w1{
     transform: translate(50px,1000px);
@@ -71,23 +89,73 @@ body{
     /* position: absolute; */
 /* } */
 #s1{
-    transform: translate(0px,1600px);
+    transform: translate(80px,1640px);
     position: absolute;
 }
 #s2{
-    transform: translate(600px,1600px);
+    transform: translate(532px,1640px);
     position: absolute;
 }
 #s3{
-    transform: translate(1200px,1600px);
+    transform: translate(983px,1640px);
     position: absolute;
 }
-#s4{
-    transform: translate(1600px,1600px);
-    position: absolute;
+
+
+.slideshow-container {
+    padding-top: 1030px;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* z-index: 1; */
 }
-/* .lb1{
-    transform: translate(50px,1000px);
+
+.slideshow {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slideshow img {
+    height: 500px;
+    width: 900px;
+    object-fit: cover;
+    flex: 0 0 auto;
+}
+
+.prev,
+.next {
     position: absolute;
-} */
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #000000;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.prev {
+    left: 80px;
+    top: 1250px;
+    color: rgb(255, 25, 228)
+}
+
+.next {
+    right: 60px;
+    top: 1260px;
+    color: rgb(255, 25, 228)
+}
+
+#la{
+    top: -100px;
+    left: -20px;
+    /* position: absolute; */
+    position: fixed;
+    transform: rotate(2deg);
+    z-index: 1;
+}
+
+
+
+
 
