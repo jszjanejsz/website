@@ -117,4 +117,21 @@ body{
     position: absolute;
 }
 
+.box {
+    position: absolute;
+    top: 2300px;
+    left: 350px;
+    width: 850px;
+    height: auto;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
 

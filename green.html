@@ -90,3 +90,35 @@
     <img height="250"  src="image/城市绿塑/2 (8).jpg"  alt="i1" />
 </div>
 
+
+<div class="box" onclick="changeImage()">
+    <img id="image" src="image/杀马特/组 16.png" alt="img01">
+  </div>
+  
+  <script>
+  var currentImageIndex = 0;
+  var images = [
+    "image/杀马特/组 15.png",
+    "image/杀马特/组 14.png",
+    "image/杀马特/组 13.png",
+    "image/杀马特/组 12.png",
+    "image/杀马特/组 11.png",
+    "image/杀马特/组 10.png",
+    "image/杀马特/组 9.png",
+    "image/杀马特/组 8.png",
+    "image/杀马特/组 7.png",
+    "image/杀马特/组 6.png",
+    "image/杀马特/组 5.png",
+    "image/杀马特/组 4.png",
+    "image/杀马特/组 3.png",
+    "image/杀马特/组 2.png",
+    "image/杀马特/组 1.png",
+  ];
+  
+  function changeImage() {
+    var image = document.getElementById("image");
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    image.src = images[currentImageIndex];
+  }
+  </script>
+
