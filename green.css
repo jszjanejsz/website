@@ -8,6 +8,10 @@
 }
 body{
     background-color: rgb(255, 255, 255);
+    /* bottom: 3000px; */
+    height: 4000px;
+    width: 900px;
+    
 }
 #breaking{
    /* left: 200px; */
@@ -120,10 +124,10 @@ body{
 .box {
     position: absolute;
     top: 2300px;
-    left: 350px;
-    width: 850px;
+    left: 400px;
+    width: 700px;
     height: auto;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     /* border-radius: 10px; */
     overflow: hidden;
     cursor: pointer;
