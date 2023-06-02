@@ -9,7 +9,7 @@
 body{
     background-color: rgb(0, 0, 0);
     height: 4000px;
-    width: 1500px;
+    width: 900px;
 }
 
 #la{
@@ -99,16 +99,16 @@ body{
 }
 
 #i8{
-    transform: translate(500px,-300px);
+    transform: translate(500px,3000px);
     position: absolute;
 }
-.slideshow-container {
+/* .slideshow-container {
     padding-top: 2150px;
     width: 65%;
     height: 1200px;
     overflow: hidden;
     margin: 0 auto;
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 .slideshow {
@@ -144,4 +144,22 @@ body{
     right: 60px;
     top: 2510px;
     color:  rgb(247, 40, 160);
-}
+} */
+
+.box {
+    position: absolute;
+    top: 2300px;
+    left: 350px;
+    width: 850px;
+    height: auto;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }

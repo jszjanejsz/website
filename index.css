@@ -95,7 +95,7 @@ body{
     transform: translate(1310px,-740px) rotate(-90deg);
 }
 
-#b{
+#green{
  top: -10px;
  left: 220px;
  position: absolute;
@@ -103,9 +103,9 @@ body{
  transition: .4s;
  opacity: 60%;
 }
-#b:hover{opacity:100%;}
+#green:hover{opacity:100%;}
 
-#n{
+#h{
     top: 160px;
     left: 220px;
     position: absolute;
@@ -113,9 +113,9 @@ body{
     transition: .4s;
     opacity: 60%;
    }
-#n:hover{opacity:100%;}
+#h:hover{opacity:100%;}
 
-#s{
+#b{
     top: 330px;
     left: 220px;
     position: absolute;
@@ -123,10 +123,10 @@ body{
     transition: .4s;
     opacity: 60%;
    }
-#s:hover{opacity:100%;}
+#b:hover{opacity:100%;}
 
 
-#four{
+#n{
     top: 500px;
     left: 220px;
     position: absolute;
@@ -134,9 +134,9 @@ body{
     transition: .4s;
     opacity: 60%;
 }
-#four:hover{opacity:100%;}
+#n:hover{opacity:100%;}
 
-#take{
+#s{
     top: 670px;
     left: 220px;
     position: absolute;
@@ -144,9 +144,9 @@ body{
     transition: .4s;
     opacity: 60%;
 }
-#take:hover{opacity:100%;}
+#s:hover{opacity:100%;}
 
-#book{
+#four{
     top: 840px;
     left: 220px;
     position: absolute;
@@ -154,43 +154,87 @@ body{
     transition: .4s;
     opacity: 60%;
 }
-#book:hover{opacity:100%;}
-#mimi{
+#four:hover{opacity:100%;}
+
+#take{
     top: 1010px;
     left: 220px;
     position: absolute;
     z-index: 1;
+    transition: .4s;
+    opacity: 60%;
 }
-#ma{
+#take:hover{opacity:100%;}
+
+#book{
     top: 1180px;
     left: 220px;
     position: absolute;
     z-index: 1;
+    transition: .4s;
+    opacity: 60%;
 }
-#black{
+#book:hover{opacity:100%;}
+
+#mimi{
     top: 1350px;
     left: 220px;
     position: absolute;
     z-index: 1;
+    transition: .4s;
+    opacity: 60%;
 }
-#water{
+#mimi:hover{opacity:100%;}
+
+#m{
     top: 1520px;
     left: 220px;
     position: absolute;
     z-index: 1;
+    transition: .4s;
+    opacity: 60%;
 }
-#by{
+#m:hover{opacity:100%;}
+
+#black{
     top: 1690px;
     left: 220px;
     position: absolute;
     z-index: 1;
+    transition: .4s;
+    opacity: 60%;
 }
-#font{
+#black:hover{opacity:100%;}
+
+#water{
     top: 1860px;
     left: 220px;
     position: absolute;
     z-index: 1;
+    transition: .4s;
+    opacity: 60%;
 }
+#water:hover{opacity:100%;}
+
+#buy{
+    top: 2030px;
+    left: 220px;
+    position: absolute;
+    z-index: 1;
+    transition: .4s;
+    opacity: 60%;
+}
+#buy:hover{opacity:100%;}
+
+#font{
+    top: 2200px;
+    left: 220px;
+    position: absolute;
+    z-index: 1;
+    transition: .4s;
+    opacity: 60%;
+}
+#font:hover{opacity:100%;}
 
 
 #chuang-4{
