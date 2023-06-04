@@ -24,17 +24,14 @@
 
     
 <div id="hb">
-    <img  height="550" src="image/no tag on me/海报-横版.jpg" alt="hb" >
+    <img  height="400" src="image/no tag on me/海报-横版.jpg" alt="hb" >
 </div>
-<div id="hb1">
-    <img  height="550" src="image/no tag on me/海报-竖版.jpg" alt="hb1" >
-</div>
+<!-- <div id="hb1">
+    <img  height="500" src="image/no tag on me/海报-竖版.jpg" alt="hb1" >
+</div> -->
 <div id="p">
- <p>We believe that every girl is unique and beautiful, and that imperfections and differences are what make us who we really are.
-
-    The girls in the video all have different personalities, from the bold and confident clover girl, to the girl with deep body anxiety, to the girl troubled by weight loss, to the girl who is naturally darker than others, to the girl who is not confident because of her birthmark, to the girl with low self-esteem because of her big mouth and freckles... We want to tell every girl that we are all unique and beautiful, and that imperfections and differences are what make us who we really are. Girls, too, can embrace their imperfect selves.
-    
-    The overall feeling of the film is light and cheerful, the picture is full of movement, bright and jumpy colors. The vibrant colors create a cheerful atmosphere and highlight the different personalities of the girls of the gen-z era.
+ <p>
+    We believe that every girl is unique and beautiful, and that imperfections and differences are what make us who we really are. The girls in the video all have different personalities, from the bold and confident clover girl, to the girl with deep body anxiety, to the girl who is plagued by weight loss, to the girl who is naturally darker than others, to the girl who is not confident because of her birthmark, to the girl who has low self-esteem because of her big mouth and freckles ...... The overall feel of the film is light and cheerful, with images full of movement and bright, jumping colors. The bright colors create a cheerful atmosphere and highlight the different personalities of the girls in the Genesis era.
 </p>
 </div>
 <div id="p1">
@@ -49,7 +46,7 @@
 </div>
 <div id="p2">
     <p>
-        Creators: Jane Phoebe Print yoa
+        Team: Jane Phoebe Print yoa
     </p>
 </div>
 <div id="p3">
@@ -68,7 +65,19 @@
     </p>
 </div>
 
-<div id="s1">
+<div id="p6">
+    <p>
+        Posters
+    </p>
+</div>
+
+<div id="video">
+    <video width="800" height="800" controls>
+      <source src="image/no tag on me/No tag on me.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!-- <div id="s1">
     <img height="250"  src="image/no tag on me/5.png" alt="s1" />
 </div>
 <div id="s2">
@@ -76,10 +85,10 @@
 </div>
 <div id="s3">
     <img height="250"  src="image/no tag on me/7.png" alt="s3" />
-</div>
+</div> -->
 
 
-
+<!-- 
  <div class="slideshow-container">
         <div class="slideshow">
         <img src="image/no tag on me/1 (4).jpg" alt="Image 1" class="active">
@@ -110,28 +119,85 @@
             var translateX = -slideIndex * slideWidth;
             document.querySelector('.slideshow').style.transform = `translateX(${translateX}px)`;
         }
-    </script>
+    </script> -->
+
+    <div id="i1">
+        <img height="300"  src="image/no tag on me/1 (4).jpg"  alt="i1" />
+    </div>
+    
+    <!-- <div id="i2">
+        <img height="300"  src="image/no tag on me/1 (3).jpg"  alt="i2" />
+    </div> -->
+    
+    <div id="i3">
+        <img height="300"  src="image/no tag on me/1 (2).jpg"  alt="i2" />
+    </div>
+    
+    
+    <div id="i4">
+        <img height="300"  src="image/no tag on me/1 (1).jpg"  alt="i1" />
+    </div>
+
+    <div id="i5">
+        <img  height="400" src="image/no tag on me/海报-横版.jpg" alt="" >
+    </div>
+
+    <div id="i6">
+    <img  height="400" src="image/no tag on me/海报-竖版.jpg" alt="" >
+    </div>
  
     
   
     
     
-    <a href="index.html">
+ <a href="index.html">
     
-        <div id="la">
-            <img height="400"  src="image/拉链-08-08.png"  alt="la" />
-        </div>
-          
-      </a>
-     
-      <!-- <iframe src="//player.bilibili.com/player.html?aid=529235119&bvid=BV1Du411s725&cid=1144676910&page=1"
-       scrolling="no" 
-       frameborder="no" 
-       framespacing="0" 
-       allowfullscreen="true"> 
-      </iframe> -->
+    <div id="la">
+        <img height="750"  src="image/拉链-08-08.png"  alt="la" />
+    </div>
+      
+</a>
 
-      <iframe src="//player.bilibili.com/player.html?aid=529235119&bvid=BV1Du411s725&cid=1144676910&page=1" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+  
+<div class="slider-container">
+      <div class="slider-content">
+               <img class="slider-item" src="image/no tag on me/5.png" alt="Image 1">
+               <img class="slider-item" src="image/no tag on me/7.png" alt="Image 2">
+               <img class="slider-item" src="image/no tag on me/6.png" alt="Image 3">
+               <img class="slider-item" src="image/no tag on me/1.png" alt="Image 4">
+               <img class="slider-item" src="image/no tag on me/8.png" alt="Image ">
+               <!-- <img class="slider-item" src="image/hekti lloty/1 (10).png" alt="Image "> -->
+              
+          
+      </div>
+</div>
+
+    <script>
+            const sliderContainer = document.querySelector('.slider-container');
+            
+            // 监听滑动手势
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            sliderContainer.addEventListener('touchstart', (e) => {
+                touchStartX = e.touches[0].clientX;
+            });
+            
+            sliderContainer.addEventListener('touchmove', (e) => {
+                touchEndX = e.touches[0].clientX;
+            });
+            
+            sliderContainer.addEventListener('touchend', () => {
+                if (touchEndX - touchStartX > 50) {
+                    sliderContainer.scrollLeft -= 300; // 向前滑动一个图片项的宽度加外边距
+                } else if (touchStartX - touchEndX > 50) {
+                    sliderContainer.scrollLeft += 300; // 向后滑动一个图片项的宽度加外边距
+                }
+            });
+    </script>
+
+     
+    
 
     </body>
     </html>

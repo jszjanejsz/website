@@ -7,7 +7,7 @@
     src:url('font/Gilroy-RegularItalic.ttf') format('truetype');
 }
 body{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(255, 255, 255);
     height: 2000px;
     width: 500px;
 }
@@ -123,14 +123,24 @@ body{
     transform: translate(1180px,1850px);
     position: absolute;
 }
+#i9:hover img {
+    transform: scale(1.8);
+  }
+
+
 #i10{
     transform: translate(1180px,2400px);
     position: absolute;
 }
+#i10:hover img {
+    transform: scale(1.8);
+  }
 #i11{
     transform: translate(1180px,2950px);
     position: absolute;
 }
-
+#i11:hover img {
+    transform: scale(1.8);
+  }
 
 

@@ -6,27 +6,53 @@
     <link rel="icon" href="../image/hekti lloty.png">
     <link rel="stylesheet" href="h.css">
     
-</style>
-<bady>
+  </head>
+<body>
     
+<!-- <div id="breaking">
+<video width="450"  muted autoplay playsinline loop>
+    <source src="video/大蝴蝶2.mp4" type="video/mp4">
+</video> -->
+</div>
+<div id="p">
+ <p>HEKTI LLOTY was created by HELLO KITTY, the author saw a news about "counterfeit" kitty on the Internet and immediately thought of the existence of "kitty" everywhere in life. "but these kitties do not have the genuine authorization. With this phenomenon as an inspiration, I thought about the boundary of plagiarism. By breaking HELLO KITTY, an extremely popular ip image, and reshaping "Kitty", we explore the boundary between plagiarism and homage.
+</p>
+</div>
 <div id="p1">
     <p>
-        Urban green plastic trees
+        HEKTI LLOTY
     </p>
 </div>
 <div id="p2">
     <p>
-      2023.06
+     Jane
     </p>
 </div>
 <div id="p3">
     <p>
-        Jane 
+    2023.06
     </p>
 </div>
-<div id="p4">
+<!-- <div id="p4">
     <p>
-        In the city, you can see artificially constructed "green" everywhere. Site green cloth, green fence, green garbage cans ...... People imitate nature in an extremely poor way, using "green" to replace plants, bringing people the illusion of recognition at a glance. This "green" is an indispensable part of urban development and an oasis that belongs to the city alone.
+        Live
+    </p>
+</div> -->
+<div id="p5">
+    <p>
+        Live
+    </p>
+</div>
+
+<div id="p6">
+    <p>
+        Website 
+    </p>
+</div>
+
+<div id="p7">
+    <p>
+        Click on the picture
     </p>
 </div>
 
@@ -48,45 +74,83 @@
 <a href="index.html">
     
     <div id="la">
-        <img height="400"  src="image/拉链-08-08.png"  alt="la" />
+        <img height="750"  src="image/拉链-08-08.png"  alt="la" />
     </div>
       
 </a>
 
 <div id="i1">
-    <img height="400"  src="image/城市绿塑/2 (1).jpg"alt="i1" />
+    <img height="600"  src="image/hekti lloty/1 (9).png"  alt="i1" />
 </div>
 
 <div id="i2">
-    <img height="400"  src="image/城市绿塑/2 (1).png"  alt="i2" />
+    <img height="450"  src="image/hekti lloty/1 (2).png"  alt="i2" />
 </div>
 
 <div id="i3">
-    <img height="400"  src="image/城市绿塑/2 (2).jpg"  alt="i2" />
+    <img height="450"  src="image/hekti lloty/1 (6).png"  alt="i2" />
 </div>
 
 
 <div id="i4">
-    <img height="300"  src="image/城市绿塑/2 (3).jpg"  alt="i1" />
+    <img height="450"  src="image/hekti lloty/1 (7).png"  alt="i1" />
 </div>
 
-<div id="i5">
-    <img height="300"  src="image/城市绿塑/2 (6).jpg"  alt="i1" />
+
+
+
+
+
+
+
+  
+<div class="slider-container">
+      <div class="slider-content">
+               <img class="slider-item" src="image/hekti lloty/1 (3).png" alt="Image 1">
+               <img class="slider-item" src="image/hekti lloty/1 (4).png" alt="Image 2">
+               <img class="slider-item" src="image/hekti lloty/1 (5).png" alt="Image 3">
+               <img class="slider-item" src="image/hekti lloty/1 (1).png" alt="Image 4">
+               <img class="slider-item" src="image/hekti lloty/1 (8).png" alt="Image ">
+               <img class="slider-item" src="image/hekti lloty/1 (10).png" alt="Image ">
+              
+          
+      </div>
 </div>
 
-<div id="i6">
-    <img height="250"  src="image/城市绿塑/2 (5).jpg"  alt="i1" />
-</div>
+    <script>
+            const sliderContainer = document.querySelector('.slider-container');
+            
+            // 监听滑动手势
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            sliderContainer.addEventListener('touchstart', (e) => {
+                touchStartX = e.touches[0].clientX;
+            });
+            
+            sliderContainer.addEventListener('touchmove', (e) => {
+                touchEndX = e.touches[0].clientX;
+            });
+            
+            sliderContainer.addEventListener('touchend', () => {
+                if (touchEndX - touchStartX > 50) {
+                    sliderContainer.scrollLeft -= 300; // 向前滑动一个图片项的宽度加外边距
+                } else if (touchStartX - touchEndX > 50) {
+                    sliderContainer.scrollLeft += 300; // 向后滑动一个图片项的宽度加外边距
+                }
+            });
+    </script>
 
-<div id="i7">
-    <img height="220"  src="image/城市绿塑/2 (4).jpg"  alt="i1" />
-</div>
+<a href="https://readymag.com/u281904996/4184891/">
+    
+    <div id="website">
+      <img height="500"  src="image/hekti lloty/logo组合-04.png" alt="s" />
+    </div>  
+  </a>
 
-<div id="i8">
-    <img height="250"  src="image/城市绿塑/2 (7).jpg"  alt="i1" />
-</div>
+  </body>
+</html>
 
-<div id="i9">
-    <img height="250"  src="image/城市绿塑/2 (8).jpg"  alt="i1" />
-</div>
 
+
+ 

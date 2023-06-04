@@ -14,11 +14,13 @@ body{
    /* left: 200px; */
    /* top: 20px; */
    transform: translate(150px, 20px); 
+   position: absolute;
 }
+
 #p{
     font-family:Gilroy-LightItalic;
     width: 650;
-    transform: translate(700px,-130px);
+    transform: translate(700px,450px);
     color: rgb(201, 255, 25);
     position: absolute;
 }
@@ -26,14 +28,14 @@ body{
     font-family:Gilroy-RegularItalic;
     width: 650;
     font-size: 14pt;
-    transform: translate(700px,-350px);
+    transform: translate(700px,150px);
     color: rgb(201, 255, 25);
     position: absolute;
 }
 #p2{
     font-family:Gilroy-RegularItalic;
     width: 650;
-    transform: translate(700px,-300px);
+    transform: translate(700px,200px);
     color: rgb(201, 255, 25);
     position: absolute;
 }
@@ -42,7 +44,7 @@ body{
     font-family:Gilroy-RegularItalic;
     width: 650;
     font-size: 16pt;
-    transform: translate(700px,-400px);
+    transform: translate(700px,40px);
     color: rgb(201, 255, 25);
     position: absolute;
 }
@@ -51,7 +53,7 @@ body{
     font-family:Gilroy-RegularItalic;
     width: 650;
     font-size: 16pt;
-    transform: translate(150px,150px);
+    transform: translate(150px,700px);
     color: rgb(201, 255, 25);
     position: absolute;
 }
@@ -61,7 +63,7 @@ body{
     font-family:Gilroy-RegularItalic;
     width: 650;
     font-size: 16pt;
-    transform: translate(150px,900px);
+    transform: translate(150px,1400px);
     color: rgb(201, 255, 25);
     position: absolute;
 }
@@ -70,7 +72,7 @@ body{
     font-family:Gilroy-RegularItalic;
     width: 650;
     font-size: 16pt;
-    transform: translate(150px,2700px);
+    transform: translate(150px,3300px);
     color: rgb(201, 255, 25);
     position: absolute;
 }
@@ -135,52 +137,76 @@ body{
 } */
 #i1{
     /* width: 200; */
-    transform: translate(150px,1000px);
+    transform: translate(150px,1550px);
     position: absolute;
 }
 #i2{
     width: 200;
-    transform: translate(190px,2200px);
+    transform: translate(190px,2800px);
     position: absolute;
 }
+#i2:hover img {
+    transform: scale(1.5);
+  }
+
 
 #i3{
     width: 200;
-    transform: translate(850px,2200px);
+    transform: translate(850px,2800px);
     position: absolute;
 }
+#i3:hover img {
+    transform: scale(1.5);
+  }
+
 
 
 
 #i4{
     /* width: 200; */
-    transform: translate(1050px,1800px);
+    transform: translate(1050px,2400px);
     position: absolute;
 }
+#i4:hover img {
+    transform: scale(1.5);
+  }
+
 
 #i5{
     /* width: 200; */
-    transform: translate(180px,1800px);
+    transform: translate(180px,2400px);
     position: absolute;
 }
+#i5:hover img {
+    transform: scale(1.5);
+  }
+
 
 #i6{
     /* width: 200; */
-    transform: translate(570px,1800px);
+    transform: translate(570px,2400px);
     position: absolute;
 }
+#i6:hover img {
+    transform: scale(1.5);
+  }
+
 
 #i7{
     /* width: 200; */
-    transform: translate(810px,1800px);
+    transform: translate(810px,2400px);
     position: absolute;
 }
+#i7:hover img {
+    transform: scale(1.5);
+  }
+
 
 
 
 #video{
     /* width: 200; */
-    transform: translate(400px,2650px);
+    transform: translate(400px,3250px);
     position: absolute;
     font-family:Gilroy-RegularItalic;
     font-size: 16pt;
@@ -198,13 +224,13 @@ display: none;
 }
        */
 .slider-container {
-width: 61%; /* 设置容器宽度 */
+width: 70%; /* 设置容器宽度 */
 /* height: 50%; */
 overflow-x: scroll;
 white-space: nowrap; /* 禁止换行 */
 position: relative; /* 设置容器为固定定位 */
-top: 250px; /* 设置容器相对于页面顶部的距离 */
-left: 350px; /* 设置容器相对于页面左侧的距离 */
+top: 800px; /* 设置容器相对于页面顶部的距离 */
+left: 300px; /* 设置容器相对于页面左侧的距离 */
 /*border: 1px solid #ccc; /* 添加边框样式 */
 padding: 10px; /* 添加内边距 */
 z-index: 5;

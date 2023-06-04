@@ -8,113 +8,271 @@
 }
 body{
     background-color: rgb(255, 255, 255);
-}
-#breaking{
-   /* left: 200px; */
-   /* top: 20px; */
-   transform: translate(150px, 20px); 
+    width: 1300px;
 }
 
+#p{
+    font-family:Gilroy-RegularItalic;
+    width: 550;
+    transform: translate(750px,450px);
+    color: rgb(255, 25, 155);
+    position: absolute;
+}
 #p1{
     font-family:Gilroy-RegularItalic;
     width: 650;
     font-size: 16pt;
-    transform: translate(650px,500px);
-    color: rgb(12, 231, 0);
+    transform: translate(750px,80px);
+    color: rgb(255, 25, 155);
     position: absolute;
 }
 #p2{
     font-family:Gilroy-RegularItalic;
     width: 650;
-    transform: translate(750px,550px);
-    color:  rgb(12, 231, 0);
-    position: absolute
+    transform: translate(750px,220px);
+    color:rgb(255, 25, 155);
+    position: absolute;
 }
 
 #p3{
     font-family:Gilroy-RegularItalic;
     width: 650;
     font-size: 14pt;
-    transform: translate(750px,580px);
-    color: rgb(12, 231, 0);
+    transform: translate(750px,180px);
+    color: rgb(255, 25, 155);
     position: absolute;
 }
 
-#p4{
+/* #p4{
+    font-family:Gilroy-RegularItalic;
+    width: 650;
+    font-size: 16pt;
+    transform: translate(150px,560px);
+    color: rgb(255, 25, 155);
+    position: absolute;
+} */
+
+
+#p5{
+    font-family:Gilroy-RegularItalic;
+    width: 650;
+    font-size: 16pt;
+    transform: translate(130px,780px);
+    color: rgb(255, 25, 155);
+    position: absolute;
+}
+
+#p6{
+    font-family:Gilroy-RegularItalic;
+    width: 650;
+    font-size: 16pt;
+    transform: translate(130px,2100px);
+    color:  rgb(255, 25, 155);
+    position: absolute;
+}
+
+#p7{
     font-family:Gilroy-RegularItalic;
     width: 650;
     font-size: 14pt;
-    transform: translate(450px,700px);
-    color: rgb(12, 231, 0);
-    text-align: center;
+    transform: translate(130px,2150px);
+    color:  rgb(255, 25, 155);
     position: absolute;
 }
+#website{
+    font-family:Gilroy-RegularItalic;
+    width: 650;
+    font-size: 16pt;
+    transform: translate(400px,2150px);
+    /* color:  rgb(255, 25, 155); */
+    position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
+}
+
+#website:hover img {
+    transform: scale(1.2);
+  }
+
+
+
+
 
 
 
 
 
 #la{
-    top: -100px;
-    left: -20px;
+    top: -250px;
+    left: -50px;
     /* position: absolute; */
     position: fixed;
     transform: rotate(2deg);
     z-index: 1;
 }
 
-
-#i2{
-    /* width: 200; */
-    transform: translate(350px,50px);
-    position: absolute;
+/* .slideshow-container {
+    padding-top: 250px;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
     z-index: 1;
-    transition: .4s;
-    opacity: 20%;
 }
-#i2:hover{opacity:100%;}
+
+.slideshow {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slideshow img {
+    height: 500px;
+    width: 900px;
+    object-fit: cover;
+    flex: 0 0 auto;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(14, 14, 14);
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.prev {
+    left: 150px;
+    top: 1210px;
+    color: rgb(201, 255, 25)
+}
+
+.next {
+    right: 150px;
+    top: 1210px;
+    color:  rgb(201, 255, 25)
+} */
+/* #i1{
+    width: 200;
+    transform: translate(400px,1000px);
+    position: absolute;
+} */
 
 #i1{
-    width: 200;
-    transform: translate(350px,50px);
+    /* left: 200px; */
+    /* top: 20px; */
+    transform: translate(230px, 30px); 
     position: absolute;
-}
+    filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842));
+ }
 
+
+
+
+#i2{
+  
+    transform: translate(230px,1500px);
+    position: absolute;
+    filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842));
+    z-index: 1;
+}
+#i2:hover img {
+    transform: scale(1.5);
+  }
 
 
 #i3{
-    transform: translate(80px,1200px);
+    width: 200;
+    transform: translate(600px,1500px);
     position: absolute;
+    filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842));
 }
+#i3:hover img {
+    transform: scale(1.5);
+  }
+
+
 
 #i4{
-    transform: translate(680px,1500px);
+    /* width: 200; */
+    transform: translate(970px,1500px);
     position: absolute;
+    filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842));
 }
+#i4:hover img {
+    transform: scale(1.5);
+  }
 
-#i5{
-    transform: translate(1020px,1700px);
+/* #i5{
+    width: 200;
+    transform: translate(180px,1800px);
     position: absolute;
 }
 
 #i6{
-    transform: translate(750px,1100px);
+    width: 200;
+    transform: translate(570px,1800px);
     position: absolute;
 }
 
 #i7{
-    transform: translate(1100px,1250px);
+    width: 200;
+    transform: translate(810px,1800px);
     position: absolute;
+} */
+
+
+/* 
+#video{
+    width: 200;
+    transform: translate(400px,2650px);
+    position: absolute;
+} */
+
+/* .slider-container {
+scrollbar-width: none;
+-ms-overflow-style: none;
 }
 
-#i8{
-    transform: translate(80px,1650px);
-    position: absolute;
+.slider-container::-webkit-scrollbar {
+display: none;
+}
+       */
+.slider-container {
+width: 70%; /* 设置容器宽度 */
+/* height: 50%; */
+overflow-x: scroll;
+white-space: nowrap; /* 禁止换行 */
+position: relative; /* 设置容器为固定定位 */
+top: 870px; /* 设置容器相对于页面顶部的距离 */
+left: 200px; /* 设置容器相对于页面左侧的距离 */
+/*border: 1px solid #ccc; /* 添加边框样式 */
+padding: 10px; /* 添加内边距 */
+z-index: 5;
+position: absolute;
+filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842));
 }
 
-#i9{
-    transform: translate(500px,1850px);
-    position: absolute;
+.slider-item {
+display: inline-block; /* 横向排列 */
+width: 700px; /* 设置每个图片项的宽度 */
+height: auto; /* 设置每个图片项的高度 */
+margin-right: -40px; /* 设置右侧外边距，调整图片之间的间距 */
+background-color: #f0f0f0; /* 添加背景颜色，便于查看位置 */
+z-index: 5;
+}
+    
+.slider-item:last-child {
+ margin-right: 0; /* 最后一个图片项去除右侧外边距 */
+ z-index: 5;
 }
 
+.slider-container {
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
 
+.slider-container::-webkit-scrollbar {
+display: none;
+}
