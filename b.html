@@ -6,8 +6,8 @@
     <link rel="icon" href="../image/hekti lloty.png">
     <link rel="stylesheet" href="b.css">
     
-</style>
-<bady>
+  </head>
+<body>
     
 <div id="breaking">
 <video width="450"  muted autoplay playsinline loop>
@@ -45,6 +45,13 @@
     </p>
 </div>
 
+<div id="p6">
+    <p>
+        Video
+    </p>
+</div>
+
+
 
 <style>
     #la:hover img {
@@ -62,45 +69,53 @@
 <a href="index.html">
     
     <div id="la">
-        <img height="400"  src="image/拉链-08-08.png"  alt="la" />
+        <img height="750"  src="image/拉链-08-08.png"  alt="la" />
     </div>
       
-  </a>
+</a>
 
 <div id="i1">
-    <img height="750"  src="image/破茧/物料集合.png"  alt="i1" />
+    <img height="700"  src="image/破茧/物料集合.png"  alt="i1" />
 </div>
 
 <div id="i2">
-    <img height="400"  src="image/破茧/1 (2).jpg"  alt="i2" />
+    <img height="350"  src="image/破茧/1 (2).jpg"  alt="i2" />
 </div>
 
 <div id="i3">
-    <img height="400"  src="image/破茧/1 (5).jpg"  alt="i2" />
+    <img height="350"  src="image/破茧/1 (5).jpg"  alt="i2" />
 </div>
 
 
 <div id="i4">
-    <img height="300"  src="image/破茧/1 (10).jpg"  alt="i1" />
+    <img height="250"  src="image/破茧/1 (10).jpg"  alt="i1" />
 </div>
 
 <div id="i5">
-    <img height="300"  src="image/破茧/1 (1).jpg"  alt="i1" />
+    <img height="250"  src="image/破茧/1 (1).jpg"  alt="i1" />
 </div>
 
 <div id="i6">
-    <img height="300"  src="image/破茧/1（13）.jpg"  alt="i1" />
+    <img height="250"  src="image/破茧/113.jpg"  alt="i1" />
 </div>
 
 <div id="i7">
-    <img height="300"  src="image/破茧/1（14）.jpg"  alt="i1" />
+    <img height="250"  src="image/破茧/114.jpg"  alt="i1" />
 </div>
 
-<div id="video">
+<div id="p6">
     <p> Video </p>
 </div>
+
+
+
+<div id="video">
+    <video width="800" height="800" controls>
+      <source src="image/破茧/video.mp4" type="video/mp4">
+    </video>
+  </div>
   
-<div class="slideshow-container">
+<!-- <div class="slideshow-container">
     <div class="slideshow">
     <img src="image/破茧/7.jpg" alt="Image 1" class="active">
         <img src="image/破茧/8.jpg" alt="Image 2">
@@ -108,6 +123,8 @@
         <img src="image/破茧/1 (8).jpg" alt="Image 4">
         <img src="image/破茧/1 (6).jpg" alt="Image ">
         <img src="image/破茧/1（11）.jpg" alt="Image ">
+        <img src="image/破茧/2 (1).jpg" alt="Image ">
+        <img src="image/破茧/2 (2).jpg" alt="Image ">
         
     </div>
     <div class="prev" onclick="changeSlide(-1)">&#10094;</div>
@@ -133,7 +150,49 @@
         var translateX = -slideIndex * slideWidth;
         document.querySelector('.slideshow').style.transform = `translateX(${translateX}px)`;
     }
-</script>
+</script> -->
+
+<div class="slider-container">
+      <div class="slider-content">
+               <img class="slider-item" src="image/破茧/7.jpg" alt="Image 1">
+               <img class="slider-item" src="image/破茧/8.jpg" alt="Image 2">
+               <img class="slider-item" src="image/破茧/9.jpg" alt="Image 3">
+               <img class="slider-item" src="image/破茧/1 (8).jpg" alt="Image 4">
+               <img class="slider-item" src="image/破茧/1 (6).jpg" alt="Image ">
+               <img class="slider-item" src="image/破茧/111.jpg" alt="Image ">
+               <img class="slider-item" src="image/破茧/2 (1).jpg" alt="Image ">
+               <img class="slider-item" src="image/破茧/2 (2).jpg" alt="Image ">
+          
+      </div>
+</div>
+
+    <script>
+            const sliderContainer = document.querySelector('.slider-container');
+            
+            // 监听滑动手势
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            sliderContainer.addEventListener('touchstart', (e) => {
+                touchStartX = e.touches[0].clientX;
+            });
+            
+            sliderContainer.addEventListener('touchmove', (e) => {
+                touchEndX = e.touches[0].clientX;
+            });
+            
+            sliderContainer.addEventListener('touchend', () => {
+                if (touchEndX - touchStartX > 50) {
+                    sliderContainer.scrollLeft -= 300; // 向前滑动一个图片项的宽度加外边距
+                } else if (touchStartX - touchEndX > 50) {
+                    sliderContainer.scrollLeft += 300; // 向后滑动一个图片项的宽度加外边距
+                }
+            });
+    </script>
+
+  </body>
+</html>
+
 
 
  
