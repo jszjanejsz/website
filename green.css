@@ -91,11 +91,25 @@ body{
     transform: translate(150px,750px);
     position: absolute;
 }
+#i3:hover {
+    z-index: 3;
+  }
+#i3:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
 
 #i4{
-    transform: translate(380px,850px);
+    transform: translate(600px,750px);
     position: absolute;
 }
+#i4:hover {
+    z-index: 3;
+  }
+#i4:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
 
 /* #i5{
     transform: translate(1020px,800px);
@@ -103,28 +117,56 @@ body{
 } */
 
 #i6{
-    transform: translate(750px,900px);
+    transform: translate(150px,1050px);
     position: absolute;
 }
+#i6:hover {
+    z-index: 3;
+  }
+#i6:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
 
 #i7{
-    transform: translate(1100px,750px);
+    transform: translate(1050px,750px);
     position: absolute;
 }
+#i7:hover {
+    z-index: 3;
+  }
+#i7:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
 
-/* #i8{
-    transform: translate(850px,400px);
+#i8{
+    transform: translate(600px,1050px);
     position: absolute;
 }
+#i8:hover {
+    z-index: 3;
+  }
+#i8:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
 
 #i9{
-    transform: translate(200px,780px);
+    transform: translate(1050px,1050px);
     position: absolute;
-} */
+}
+#i9:hover {
+    z-index: 3;
+  }
+#i9:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
 
 .box {
     position: absolute;
-    top: 1300px;
+    top: 1500px;
     left: 400px;
     width: 700px;
     height: auto;

@@ -177,6 +177,9 @@ body{
     filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842));
     z-index: 1;
 }
+#i2:hover {
+    z-index: 3;
+  }
 #i2:hover img {
     transform: scale(1.5);
   }
@@ -188,8 +191,12 @@ body{
     position: absolute;
     filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842));
 }
+#i3:hover {
+    z-index: 3;
+  }
 #i3:hover img {
     transform: scale(1.5);
+    /* z-index: 3; */
   }
 
 
@@ -200,9 +207,14 @@ body{
     position: absolute;
     filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842));
 }
+#i4:hover {
+    z-index: 3;
+  }
 #i4:hover img {
     transform: scale(1.5);
+    /* z-index: 3; */
   }
+
 
 /* #i5{
     width: 200;

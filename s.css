@@ -101,35 +101,72 @@ body{
     position: absolute;
 }
 
+
 #i2{
     transform: translate(130px,680px);
     position: absolute;
 }
+#i2:hover {
+    z-index: 3;
+  }
+#i2:hover img {
+    transform: scale(2);
+  }
 
 #i3{
     transform: translate(570px,680px);
     position: absolute;
 }
+#i3:hover {
+    z-index: 3;
+  }
+#i3:hover img {
+    transform: scale(2);
+  }
 
 #i4{
     transform: translate(1020px,680px);
     position: absolute;
 }
+#i4:hover {
+    z-index: 3;
+  }
+#i4:hover img {
+    transform: scale(2);
+  }
 
 #i5{
     transform: translate(1020px,1000px);
     position: absolute;
 }
+#i5:hover {
+    z-index: 3;
+  }
+#i5:hover img {
+    transform: scale(2);
+  }
 
 #i6{
     transform: translate(130px,1000px);
     position: absolute;
 }
+#i6:hover {
+    z-index: 3;
+  }
+#i6:hover img {
+    transform: scale(2);
+  }
 
 #i7{
     transform: translate(570px,1000px);
     position: absolute;
 }
+#i7:hover {
+    z-index: 3;
+  }
+#i7:hover img {
+    transform: scale(2);
+  }
 
 #i8{
     transform: translate(500px,2900px);
@@ -137,10 +174,14 @@ body{
 }
 
 
+
 #i9{
     transform: translate(440px,2300px);
     position: absolute;
 }
+#i9:hover {
+    z-index: 3;
+  }
 #i9:hover img {
     transform: scale(1.5);
   }
@@ -149,24 +190,33 @@ body{
     transform: translate(130px,2300px);
     position: absolute;
 }
+#i0:hover {
+    z-index: 3;
+  }
 #i10:hover img {
-    transform: scale(1.5);
+    transform: scale(1.8);
   }
 
 #i11{
     transform: translate(750px,2300px);
     position: absolute;
 }
+#i11:hover {
+    z-index: 3;
+  }
 #i11:hover img {
-    transform: scale(1.5);
+    transform: scale(1.8);
   }
 
 #i12{
     transform: translate(1060px,2300px);
     position: absolute;
 }
+#i12:hover {
+    z-index: 3;
+  }
 #i12:hover img {
-    transform: scale(1.5);
+    transform: scale(1.8);
   }
 /* .slideshow-container {
     padding-top: 2150px;

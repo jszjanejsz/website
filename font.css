@@ -7,56 +7,22 @@
     src:url('font/Gilroy-RegularItalic.ttf') format('truetype');
 }
 body{
-    background-color: rgb(255, 255, 255);
-}
-#breaking{
-   /* left: 200px; */
-   /* top: 20px; */
-   transform: translate(150px, 20px); 
+    background-color: rgb(0, 0, 0);
+    height: 3000px;
 }
 
-#p1{
-    font-family:Gilroy-RegularItalic;
-    width: 650;
-    font-size: 16pt;
-    transform: translate(650px,500px);
-    color: rgb(12, 231, 0);
+#video{
+    /* width: 200; */
+    transform: translate(400px,2250px);
     position: absolute;
+    /* font-family:Gilroy-RegularItalic; */
+    /* font-size: 16pt; */
+    /* color: rgb(201, 255, 25); */
+   
 }
-#p2{
-    font-family:Gilroy-RegularItalic;
-    width: 650;
-    transform: translate(750px,550px);
-    color:  rgb(12, 231, 0);
-    position: absolute
-}
-
-#p3{
-    font-family:Gilroy-RegularItalic;
-    width: 650;
-    font-size: 14pt;
-    transform: translate(750px,580px);
-    color: rgb(12, 231, 0);
-    position: absolute;
-}
-
-#p4{
-    font-family:Gilroy-RegularItalic;
-    width: 650;
-    font-size: 14pt;
-    transform: translate(450px,700px);
-    color: rgb(12, 231, 0);
-    text-align: center;
-    position: absolute;
-}
-
-
-
-
-
 #la{
-    top: -100px;
-    left: -20px;
+    top: -250px;
+    left: -50px;
     /* position: absolute; */
     position: fixed;
     transform: rotate(2deg);
@@ -64,57 +30,222 @@ body{
 }
 
 
-#i2{
-    /* width: 200; */
-    transform: translate(350px,50px);
-    position: absolute;
-    z-index: 1;
-    transition: .4s;
-    opacity: 20%;
+#hb{
+   transform: translate(300px, 50px); 
+   position: absolute;
 }
-#i2:hover{opacity:100%;}
+#hb1{
+    transform: translate(1050px, 70px); 
+    position: absolute;
+ }
+#p{
+    font-family:Gilroy-LightItalic;
+    width: 550;
+    transform: translate(800px,260px);
+    color:  #ffffff;
+    position: absolute;
+}
+#p1{
+    font-family:Gilroy-RegularItalic;
+    width: 600;
+    font-size: 18pt;
+    transform: translate(800px,30px);
+    color:  #ffffff;
+    position: absolute;
+
+}
+#p12{
+    font-family:Gilroy-LightItalic;
+    width: 600;
+    font-size: 14pt;
+    transform: translate(800px,100px);
+    color:  #ffffff;
+    position: absolute;
+
+}
+#p2{
+    font-family:Gilroy-LightItalic;
+    width: 600;
+    transform: translate(800px,130px);
+    color: #ffffff;
+    position: absolute;
+}
+#p3{
+    font-family:Gilroy-RegularItalic;
+   
+    font-size: 14pt;
+    transform: translate(130px,650px);
+    color:  #ffffff;
+    position: absolute;
+}
+#p4{
+    font-family:Gilroy-RegularItalic;
+   
+    font-size: 14pt;
+    transform: translate(130px,1800px);
+    color:  #ffffff;
+    position: absolute;
+}
+#p5{
+    font-family:Gilroy-RegularItalic;
+   
+    font-size: 14pt;
+    transform: translate(130px,1200px);
+    color: #ffffff;
+    position: absolute;
+}
+
+#p6{
+    font-family:Gilroy-RegularItalic;
+   
+    font-size: 14pt;
+    transform: translate(130px,1200px);
+    color: #0941c5;
+    position: absolute;
+}
+
+
+#w1{
+    transform: translate(50px,1000px);
+    position: absolute;
+}
+#w2{
+    transform: translate(800px,1000px);
+    position: absolute;
+}
+
+/* #w3{ */
+    /* transform: translate(50px,1500px); */
+    /* position: absolute; */
+/* } */
+#s1{
+    transform: translate(80px,1640px);
+    position: absolute;
+}
+#s2{
+    transform: translate(532px,1640px);
+    position: absolute;
+}
+#s3{
+    transform: translate(983px,1640px);
+    position: absolute;
+}
 
 #i1{
     width: 200;
-    transform: translate(350px,50px);
+    transform: translate(250px,750px);
     position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }
+#i1:hover {
+    z-index: 3;
+  }
+#i1:hover img {
+    transform: scale(2);
+  }
 
 
 
-#i3{
-    transform: translate(80px,1200px);
+/* #i2{
+    width: 200;
+    transform: translate(1000px,750px);
     position: absolute;
+    filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842));
 }
+#i2:hover img {
+    transform: scale(1.5);
+  } */
+
+  #i3{
+    width: 200;
+    transform: translate(800px,750px);
+    position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
+}
+#i3:hover {
+    z-index: 3;
+  }
+#i3:hover img {
+    transform: scale(2);
+  }
+
+
 
 #i4{
-    transform: translate(680px,1500px);
+    width: 200;
+    transform: translate(1000px,750px);
     position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }
+#i4:hover {
+    z-index: 3;
+  }
+#i4:hover img {
+    transform: scale(2.5);
+  }
 
 #i5{
-    transform: translate(1020px,1700px);
+    width: 200;
+    transform: translate(300px,1300px);
     position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }
+/* #i5:hover img {
+    transform: scale(1.5);
+  } */
 
 #i6{
-    transform: translate(750px,1100px);
+    width: 200;
+    transform: translate(300px,1900px);
     position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }
 
 #i7{
-    transform: translate(1100px,1250px);
+    width: 200;
+    transform: translate(300px,2200px);
     position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
+    z-index: -1;
+}
+
+#i10{
+    width: 200;
+    transform: translate(300px,3300px);
+    position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }
 
 #i8{
-    transform: translate(80px,1650px);
+    width: 200;
+    transform: translate(300px,2500px);
     position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }
 
 #i9{
-    transform: translate(500px,1850px);
+    width: 200;
+    transform: translate(300px,3900px);
     position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }
+
+#i11{
+    width: 200;
+    transform: translate(300px,4500px);
+    position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
+}
+
+#i12{
+    width: 200;
+    transform: translate(300px,5100px);
+    position: absolute;
+    /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
+}
+
+
+
+
 
 

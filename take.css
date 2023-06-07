@@ -86,61 +86,147 @@ body{
 #i2{
     transform: translate(130px,700px);
     position: absolute;
+    z-index: 2;
 }
+#i2:hover {
+    z-index: 3;
+  }
+#i2:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
+
+
 
 #i3{
     transform: translate(575px,700px);
     position: absolute;
+    z-index: 2;
 }
+#i3:hover {
+    z-index: 3;
+  }
+#i3:hover img {
+    transform: scale(1.8);
+    /* z-index: 4; */
+  }
+
+
 
 
 #i4{
     transform: translate(1020px,700px);
     position: absolute;
+    z-index: 2;
+    
 }
+#i4:hover {
+    z-index: 3;
+  }
+#i4:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
+
+
 
 #i5{
     transform: translate(1020px,1000px);
     position: absolute;
+    z-index: 2;
 }
+#i5:hover {
+    z-index: 3;
+  }
+#i5:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
+
+
 
 #i6{
     transform: translate(575px,1000px);
     position: absolute;
+    z-index: 2;
 }
+#i6:hover {
+    z-index: 3;
+  }
+#i6:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
+
+
 
 #i7{
     transform: translate(130px,1000px);
     position: absolute;
+    z-index: 2;
 }
+#i7:hover {
+    z-index: 3;
+  }
+#i7:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
+
+
 
 
 #i8{
     transform: translate(1180px,1300px);
     position: absolute;
+    z-index: 2;
 }
+#i8:hover {
+    z-index: 3;
+  }
+#i8:hover img {
+    transform: scale(1.8);
+    /* z-index: 3; */
+  }
+
+
 #i9{
     transform: translate(1180px,1850px);
     position: absolute;
+    z-index: 2;
 }
+#i9:hover {
+    z-index: 3;
+  }
 #i9:hover img {
     transform: scale(1.8);
+    /* z-index: 3; */
   }
 
 
 #i10{
     transform: translate(1180px,2400px);
     position: absolute;
+    z-index: 2;
 }
+#i10:hover {
+    z-index: 3;
+  }
 #i10:hover img {
     transform: scale(1.8);
+    /* z-index: 3; */
   }
 #i11{
     transform: translate(1180px,2950px);
     position: absolute;
+    z-index: 2;
 }
+#i11:hover {
+    z-index: 3;
+  }
 #i11:hover img {
     transform: scale(1.8);
+    /* z-index: 3; */
   }
 
 

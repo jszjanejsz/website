@@ -145,6 +145,9 @@ body{
     transform: translate(190px,2800px);
     position: absolute;
 }
+#i2:hover {
+    z-index: 3;
+  }
 #i2:hover img {
     transform: scale(1.5);
   }
@@ -155,6 +158,9 @@ body{
     transform: translate(850px,2800px);
     position: absolute;
 }
+#i3:hover {
+    z-index: 3;
+  }
 #i3:hover img {
     transform: scale(1.5);
   }
@@ -167,8 +173,11 @@ body{
     transform: translate(1050px,2400px);
     position: absolute;
 }
+#i4:hover {
+    z-index: 3;
+  }
 #i4:hover img {
-    transform: scale(1.5);
+    transform: scale(2);
   }
 
 
@@ -177,8 +186,11 @@ body{
     transform: translate(180px,2400px);
     position: absolute;
 }
+#i5:hover {
+    z-index: 3;
+  }
 #i5:hover img {
-    transform: scale(1.5);
+    transform: scale(2);
   }
 
 
@@ -187,8 +199,11 @@ body{
     transform: translate(570px,2400px);
     position: absolute;
 }
+#i6:hover {
+    z-index: 3;
+  }
 #i6:hover img {
-    transform: scale(1.5);
+    transform: scale(2);
   }
 
 
