@@ -24,6 +24,11 @@ body{
 @font-face {
     font-family: 'pixel-black';
     src:url('font/pixel-black.ttf') format('truetype');}
+
+ @font-face {
+    font-family: 'Basicdots';
+    src:url('font/Basicdots.TTF') format('truetype');}
+
 #la{
     top: -250px;
     left: 80px;
@@ -48,7 +53,7 @@ body{
 #p1{
    
     width: 900px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
     transform: translate(300px,-120px);
@@ -60,7 +65,7 @@ body{
 #p2{
     position: absolute;
     width: 900px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
     transform: translate(300px,-385px);
@@ -68,7 +73,7 @@ body{
 }
 .p3{
     width: 370px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color:#ffffff;
     font-size: 25pt;
     position: absolute;
@@ -78,104 +83,104 @@ body{
 .p4{
     position: absolute;
     width: 360px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,10px);
+    transform: translate(300px,15px);
     z-index: 4;
 }
 .p5{
     width: 360px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,140px);
+    transform: translate(300px,145px);
     z-index: 1;
 }
 .p6{
     width: 360px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,140px);
+    transform: translate(300px,145px);
     z-index: 1;
 }
 
 .p7{
     width: 360px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,180px);
+    transform: translate(300px,195px);
     z-index: 1;
 }
 
 .p8{
-    width: 360px;
-    font-family:pixel-black;
+    width: 600px;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,225px);
+    transform: translate(300px,245px);
     z-index: 1;
 }
 
 .p9{
     width: 600px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,270px);
+    transform: translate(300px,295px);
     z-index: 1;
 }
 
 .p10{
     width: 600px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 25pt;
-    transform: translate(300px,320px);
+    transform: translate(300px,350px);
     z-index: 1;
 }
 
 .p11{
     width: 600px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,330px);
+    transform: translate(300px,370px);
     z-index: 1;
 }
 
 .p12{
     width: 600px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,490px);
+    transform: translate(300px,530px);
     z-index: 1;
 }
 
 .p13{
     width: 600px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,535px);
+    transform: translate(300px,585px);
     z-index: 1;
 }
 
 .p14{
     width: 600px;
-    font-family:pixel-black;
+    font-family:Basicdots;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,580px);
+    transform: translate(300px,640px);
     z-index: 1;
 }
 .number1{
     position: absolute;
-     width: 360px; 
-    font-family: Gilroy-LightItalic;
+     width: 600px; 
+    font-family: Basicdots;
     color: #515151;
     font-size: 14pt;
     z-index: 1;
