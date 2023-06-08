@@ -171,7 +171,7 @@ body{
     width: 700px;
     height: auto;
     /* border: 2px solid #13c764; */
-    filter: drop-shadow(5px 5px 10px rgba(14, 170, 6, 0.673));
+    filter: drop-shadow(5px 5px 10px rgba(27, 27, 27, 0.673));
     /* border-radius: 10px; */
     overflow: hidden;
     cursor: pointer;

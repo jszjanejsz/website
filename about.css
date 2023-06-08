@@ -15,14 +15,14 @@ body{
     /* width: 650; */
     font-size: 45pt;
     transform: translate(700px,250px);
-    color: rgb(255, 255, 255);
+    color: rgb(242, 242, 242);
 }
 #about2{
     font-family:Gilroy-RegularItalic;
     /* width: 650; */
     font-size: 45pt;
     transform: translate(460px,180px);
-    color: rgb(255, 255, 255);
+    color:  rgb(242, 242, 242);
 }
 #la{
     top: -250px;
