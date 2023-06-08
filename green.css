@@ -6,9 +6,7 @@
     font-family: 'Gilroy-RegularItalic';
     src:url('font/Gilroy-RegularItalic.ttf') format('truetype');
 }
- @font-face {
-    font-family: 'Basicdots';
-    src:url('font/Basicdots.TTF') format('truetype');}
+ 
 body{
     background-color: rgb(255, 255, 255);
     /* bottom: 3000px; */
