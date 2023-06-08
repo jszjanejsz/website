@@ -8,7 +8,12 @@
 }
 body{
     background-color: rgb(18, 18, 18);
+    cursor: url(image/mouse2-25.ico),auto;
 }
+
+#custom-cursor {
+    cursor: url('image/mouse.png'), auto;
+   }
 
 #about1{
     font-family:Gilroy-RegularItalic;

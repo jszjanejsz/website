@@ -7,8 +7,7 @@ body{
     /* background-size: 100%;
     background-image: url("image/1/4.jpg") */
     height: 2000px;
-    
-        
+    cursor: url(image/mouse2-25.ico),auto;
 }
 @font-face {
     font-family: 'Gilroy-LightItalic';
@@ -36,6 +35,15 @@ body{
     position: fixed;
     transform: rotate(2deg);
 }
+
+ #custom-cursor {
+ cursor: url('image/mouse2-25.ico'), auto;
+}
+
+/* body {
+    cursor: url('image/mouse.png'), default;
+   } */
+ 
 
 
 

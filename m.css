@@ -9,6 +9,7 @@
 body{
     background-color: rgb(0, 0, 0);
     height: 5800px;
+    cursor: url(image/mouse2-25.ico),auto;
 }
 
 #video{

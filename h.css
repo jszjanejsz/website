@@ -9,6 +9,7 @@
 body{
     background-color: rgb(255, 255, 255);
     width: 1300px;
+    cursor: url(image/mouse2-25.ico),auto;
 }
 
 #p{
