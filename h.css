@@ -29,6 +29,7 @@ body{
 #p2{
     font-family:Gilroy-RegularItalic;
     width: 650;
+    font-size: 14pt;
     transform: translate(750px,220px);
     color:rgb(255, 25, 155);
     position: absolute;
