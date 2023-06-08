@@ -32,7 +32,7 @@ body{
 #p{
     font-family:Gilroy-LightItalic;
     width: 550;
-    transform: translate(880px,260px);
+    transform: translate(880px,360px);
     color: rgb(255, 25, 228);
     position: absolute;
 }
@@ -40,7 +40,7 @@ body{
     font-family:Gilroy-RegularItalic;
     width: 600;
     font-size: 18pt;
-    transform: translate(880px,40px);
+    transform: translate(880px,100px);
     color: rgb(255, 25, 228);
     position: absolute;
 
@@ -49,7 +49,7 @@ body{
     font-family:Gilroy-LightItalic;
     width: 600;
     font-size: 14pt;
-    transform: translate(880px,100px);
+    transform: translate(880px,230px);
     color: rgb(255, 25, 228);
     position: absolute;
 
@@ -57,14 +57,14 @@ body{
 #p2{
     font-family:Gilroy-LightItalic;
     width: 600;
-    transform: translate(880px,130px);
+    transform: translate(880px,260px);
     color: rgb(255, 25, 228);
     position: absolute;
 }
 #p3{
     font-family:Gilroy-RegularItalic;
    
-    font-size: 14pt;
+    font-size: 16pt;
     transform: translate(130px,650px);
     color: rgb(255, 25, 228);
     position: absolute;
@@ -72,7 +72,7 @@ body{
 #p4{
     font-family:Gilroy-RegularItalic;
    
-    font-size: 14pt;
+    font-size: 16pt;
     transform: translate(130px,1800px);
     color: rgb(255, 25, 228);
     position: absolute;
@@ -80,7 +80,7 @@ body{
 #p5{
     font-family:Gilroy-RegularItalic;
    
-    font-size: 14pt;
+    font-size: 16pt;
     transform: translate(130px,2300px);
     color: rgb(255, 25, 228);
     position: absolute;
@@ -89,7 +89,7 @@ body{
 #p6{
     font-family:Gilroy-RegularItalic;
    
-    font-size: 14pt;
+    font-size: 16pt;
     transform: translate(130px,1200px);
     color: rgb(255, 25, 228);
     position: absolute;

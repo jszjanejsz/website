@@ -23,7 +23,7 @@ body{
 
 #p1{
     font-family:Gilroy-RegularItalic;
-    transform: translate(850px,10px);
+    transform: translate(850px,120px);
     position: absolute;
     font-size: 20pt;
     /* text-align: center; */
@@ -32,7 +32,7 @@ body{
 
 #p3{
     font-family:Gilroy-RegularItalic;
-    transform: translate(850px,120px);
+    transform: translate(850px,220px);
     position: absolute;
     font-size: 14pt;
     color: rgb(247, 40, 160);
@@ -40,7 +40,7 @@ body{
 
 #p2{
     font-family:Gilroy-RegularItalic;
-    transform: translate(850px,150px);
+    transform: translate(850px,250px);
     font-size: 14pt;
     position: absolute;
     color: rgb(247, 40, 160);

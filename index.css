@@ -4,6 +4,11 @@
 }
 body{
     background-color: rgb(18, 18, 18);
+    /* background-size: 100%;
+    background-image: url("image/1/4.jpg") */
+    height: 2000px;
+    
+        
 }
 @font-face {
     font-family: 'Gilroy-LightItalic';
@@ -23,6 +28,8 @@ body{
     position: fixed;
     transform: rotate(2deg);
 }
+
+
 
 
 .p11{
@@ -148,7 +155,7 @@ body{
 }
 #n:hover{opacity:100%;} */
 
-#s{
+/* #s{
     top: 670px;
     left: 220px;
     position: absolute;
@@ -156,7 +163,7 @@ body{
     transition: .4s;
     opacity: 60%;
 }
-#s:hover{opacity:100%;}
+#s:hover{opacity:100%;} */
 
 #four{
     top: 840px;
@@ -288,7 +295,7 @@ body{
     background-size: 100%;
     /* background-position:80px,50px; */
     position: relative;
-    top: -50px;
+    top: -85px;
     left: 80px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
@@ -306,7 +313,7 @@ body{
     background-size: 100%;
     /* background-position: 90px 200px; */
     position: relative;
-    top: -120px;
+    top: -150px;
     left: 80px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
@@ -324,7 +331,7 @@ body{
     background-size: cover;
     /* background-position:90px,-50px; */
     position: relative;
-    top: 220px;
+    top: 190px;
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
@@ -343,7 +350,7 @@ body{
     background-size: cover;
     /* background-position:90px,-50px; */
     position: relative;
-    top: 350px;
+    top: 320px;
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
@@ -362,8 +369,8 @@ body{
     background-size: cover;
     /* background-position:90px,-50px; */
     position: relative;
-    top: -170px;
-    left: -130px;
+    top: 450px;
+    left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
     opacity: 60%;
@@ -373,4 +380,155 @@ body{
     opacity:100%;
     background-image: url("image/1/4-14.png");
   }
+
+  .four {
+    width: 1500px;
+    height: 200px;
+    background-image: url("image/1/4-32.png");
+    background-size: cover;
+    /* background-position:90px,-50px; */
+    position: relative;
+    top: 580px;
+    left: 90px;
+    transition: background-image 0.3s ease-in-out;
+    transition: .4s;
+    opacity: 60%;
+    position:absolute;
+  }
+  .four:hover {
+    opacity:100%;
+    background-image: url("image/1/网站2-11.png");
+  }
   
+  .take {
+    width: 1500px;
+    height: 200px;
+    background-image: url("image/1/4-29.png");
+    background-size: cover;
+    /* background-position:90px,-50px; */
+    position: relative;
+    top: 710px;
+    left: 90px;
+    transition: background-image 0.3s ease-in-out;
+    transition: .4s;
+    opacity: 60%;
+    position:absolute;
+  }
+  .take:hover {
+    opacity:100%;
+    background-image: url("image/1/4-13.png");
+  }
+
+  .book {
+    width: 1500px;
+    height: 200px;
+    background-image: url("image/1/4-25.png");
+    background-size: cover;
+    /* background-position:90px,-50px; */
+    position: relative;
+    top: 840px;
+    left: 90px;
+    transition: background-image 0.3s ease-in-out;
+    transition: .4s;
+    opacity: 60%;
+    position:absolute;
+  }
+  .book:hover {
+    opacity:100%;
+    background-image: url("image/1/4-16.png");
+  }
+
+  .mimi {
+    width: 1500px;
+    height: 200px;
+    background-image: url("image/1/4-33.png");
+    background-size: cover;
+    /* background-position:90px,-50px; */
+    position: relative;
+    top: 970px;
+    left: 90px;
+    transition: background-image 0.3s ease-in-out;
+    transition: .4s;
+    opacity: 60%;
+    position:absolute;
+  }
+  .mimi:hover {
+    opacity:100%;
+    background-image: url("image/1/网站2-12.png");
+  }
+
+  .m {
+    width: 1500px;
+    height: 200px;
+    background-image: url("image/1/4-24.png");
+    background-size: cover;
+    /* background-position:90px,-50px; */
+    position: relative;
+    top: 1100px;
+    left: 90px;
+    transition: background-image 0.3s ease-in-out;
+    transition: .4s;
+    opacity: 60%;
+    position:absolute;
+  }
+  .m:hover {
+    opacity:100%;
+    background-image: url("image/1/4-17.png");
+  }
+
+  .water {
+    width: 1500px;
+    height: 200px;
+    background-image: url("image/1/4-34.png");
+    background-size: cover;
+    /* background-position:90px,-50px; */
+    position: relative;
+    top: 1230px;
+    left: 90px;
+    transition: background-image 0.3s ease-in-out;
+    transition: .4s;
+    opacity: 60%;
+    position:absolute;
+  }
+  .water:hover {
+    opacity:100%;
+    background-image: url("image/1/4-18.png");
+  }
+
+  .buy {
+    width: 1500px;
+    height: 200px;
+    background-image: url("image/1/4-35.png");
+    background-size: cover;
+    /* background-position:90px,-50px; */
+    position: relative;
+    top: 1360px;
+    left: 90px;
+    transition: background-image 0.3s ease-in-out;
+    transition: .4s;
+    opacity: 60%;
+    position:absolute;
+  }
+  .buy:hover {
+    opacity:100%;
+    background-image: url("image/1/4-19.png");
+  }
+
+  .font {
+    width: 1500px;
+    height: 200px;
+    background-image: url("image/1/4-36.png");
+    background-size: cover;
+    /* background-position:90px,-50px; */
+    position: relative;
+    top: 1490px;
+    left: 90px;
+    transition: background-image 0.3s ease-in-out;
+    transition: .4s;
+    opacity: 60%;
+    position:absolute;
+  }
+  .font:hover {
+    opacity:100%;
+    background-image: url("image/1/4-20.png");
+  }

@@ -14,7 +14,7 @@ body{
 #p{
     font-family:Gilroy-RegularItalic;
     width: 550;
-    transform: translate(750px,450px);
+    transform: translate(750px,400px);
     color: rgb(255, 25, 155);
     position: absolute;
 }
