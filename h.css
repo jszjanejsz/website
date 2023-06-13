@@ -260,7 +260,7 @@ overflow-x: scroll;
 white-space: nowrap; /* 禁止换行 */
 position: relative; /* 设置容器为固定定位 */
 top: 870px; /* 设置容器相对于页面顶部的距离 */
-left: 200px; /* 设置容器相对于页面左侧的距离 */
+left: 215px; /* 设置容器相对于页面左侧的距离 */
 /*border: 1px solid #ccc; /* 添加边框样式 */
 padding: 10px; /* 添加内边距 */
 z-index: 5;

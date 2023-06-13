@@ -3,7 +3,7 @@
     transform: translate(-1000px,-1000px) 
 }
 body{
-    background-color: rgb(18, 18, 18);
+    background-color: #1E1E1E;
     /* background-size: 100%;
     background-image: url("image/1/4.jpg") */
     height: 2000px;
@@ -61,10 +61,10 @@ body{
 #p1{
    
     width: 900px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,-120px);
+    transform: translate(330px,-120px);
     z-index: 4;
     position: absolute;
 }
@@ -73,122 +73,122 @@ body{
 #p2{
     position: absolute;
     width: 900px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,-385px);
+    transform: translate(330px,-388px);
     z-index: 4;
 }
 .p3{
     width: 370px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color:#ffffff;
-    font-size: 25pt;
+    font-size: 27pt;
     position: absolute;
     z-index: 1;
-    transform: translate(300px,-240px)
+    transform: translate(330px,-240px)
 }
 .p4{
     position: absolute;
     width: 360px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,15px);
+    transform: translate(330px,10px);
     z-index: 4;
 }
 .p5{
     width: 360px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,145px);
+    transform: translate(330px,130px);
     z-index: 1;
 }
 .p6{
     width: 360px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,145px);
+    transform: translate(330px,145px);
     z-index: 1;
 }
 
 .p7{
     width: 360px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,195px);
+    transform: translate(330px,185px);
     z-index: 1;
 }
 
 .p8{
     width: 600px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,245px);
+    transform: translate(330px,225px);
     z-index: 1;
 }
 
 .p9{
     width: 600px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,295px);
+    transform: translate(330px,265px);
     z-index: 1;
 }
 
 .p10{
     width: 600px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 25pt;
-    transform: translate(300px,350px);
+    transform: translate(330px,320px);
     z-index: 1;
 }
 
 .p11{
     width: 600px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,370px);
+    transform: translate(330px,325px);
     z-index: 1;
 }
 
 .p12{
     width: 600px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,530px);
+    transform: translate(330px,485px);
     z-index: 1;
 }
 
 .p13{
     width: 600px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,585px);
+    transform: translate(330px,530px);
     z-index: 1;
 }
 
 .p14{
     width: 600px;
-    font-family:Basicdots;
+    font-family:Gilroy-LightItalic;
     color: #ffffff;
     font-size: 30pt;
-    transform: translate(300px,640px);
+    transform: translate(330px,575px);
     z-index: 1;
 }
 .number1{
     position: absolute;
      width: 600px; 
-    font-family: Basicdots;
+    font-family: Gilroy-LightItalic;
     color: #515151;
     font-size: 14pt;
     z-index: 1;
@@ -261,9 +261,9 @@ body{
     position: absolute;
     z-index: -2;
     transition: .4s;
-    opacity: 60%;
+    /* opacity: 60%; */
 }
-#four:hover{opacity:100%;}
+/* #four:hover{opacity:100%;} */
 
 #take{
     top: 1010px;
@@ -389,7 +389,7 @@ body{
     left: 80px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
   }
   #green:hover {
     opacity:100%;
@@ -407,7 +407,7 @@ body{
     left: 80px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
   }
   .h:hover {
     opacity:100%;
@@ -425,7 +425,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .b:hover {
@@ -444,7 +444,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .n:hover {
@@ -463,7 +463,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .s:hover {
@@ -482,7 +482,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .four:hover {
@@ -501,7 +501,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .take:hover {
@@ -520,7 +520,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .book:hover {
@@ -539,7 +539,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .mimi:hover {
@@ -558,7 +558,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .m:hover {
@@ -577,7 +577,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .water:hover {
@@ -596,7 +596,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .buy:hover {
@@ -615,7 +615,7 @@ body{
     left: 90px;
     transition: background-image 0.3s ease-in-out;
     transition: .4s;
-    opacity: 40%;
+    opacity: 95%;
     position:absolute;
   }
   .font:hover {
