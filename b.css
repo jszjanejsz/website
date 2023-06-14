@@ -7,7 +7,7 @@
     src:url('font/Gilroy-RegularItalic.ttf') format('truetype');
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #1E1E1E;
     width: 1300px;
 }
 #breaking{

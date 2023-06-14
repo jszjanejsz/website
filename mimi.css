@@ -7,7 +7,7 @@
     src:url('font/Gilroy-RegularItalic.ttf') format('truetype');
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #f2f2f2;
     /* width: 1300px; */
     height: 6000;
     cursor: url(image/mouse2-25.ico),auto;
@@ -213,14 +213,14 @@ body{
 
 #i6{
     /* width: 200; */
-    transform: translate(250px,3700px);
+    transform: translate(260px,3700px);
     position: absolute;
     /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }
 
 #i7{
     /* width: 200; */
-    transform: translate(250px,4500px);
+    transform: translate(260px,4500px);
     position: absolute;
     /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }
@@ -241,7 +241,7 @@ body{
 
 #i9{
     /* width: 200; */
-    transform: translate(250px,5200px);
+    transform: translate(260px,5200px);
     position: absolute;
     /* filter: drop-shadow(5px 5px 15px rgba(246, 28, 137, 0.842)); */
 }

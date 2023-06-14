@@ -8,7 +8,7 @@
 }
  
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #1E1E1E;
     /* bottom: 3000px; */
     height: 2000px;
     width: 900px;
@@ -48,7 +48,7 @@ body{
 }
 
 #p4{
-    font-family:Gilroy-RegularItalic;
+    font-family:Gilroy-LightItalic;
     width: 500;
     font-size: 14pt;
     transform: translate(950px,270px);

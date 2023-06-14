@@ -30,9 +30,11 @@ body{
     transform: translate(490px,280px);
     color:  rgb(242, 242, 242);
     position: absolute;
-    
-
+    transition: .4s;
+    opacity: 100%;
 }
+
+#about2:hover{opacity:50%;}
 
 #about3{
     font-family:Gilroy-RegularItalic;

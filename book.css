@@ -7,7 +7,7 @@
     src:url('font/Gilroy-RegularItalic.ttf') format('truetype');
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color:#f2f2f2;
     height: 3000px;
     width: 500px;
     cursor: url(image/mouse2-25.ico),auto;
@@ -47,7 +47,7 @@ body{
 }
 
 #p4{
-    font-family:Gilroy-RegularItalic;
+    font-family:Gilroy-LightItalic;
     transform: translate(800px,330px);
     width: 550px;
     /* text-align: center; */
@@ -165,7 +165,7 @@ body{
     transform: translate(130px,2100px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 #i9:hover {
     z-index: 3;
@@ -174,7 +174,7 @@ body{
     transform: scale(1.5);
     /* z-index: 3; */
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
   }
 
 
@@ -182,7 +182,7 @@ body{
     transform: translate(580px,2100px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 #i10:hover {
     z-index: 3;
@@ -191,56 +191,56 @@ body{
     transform: scale(1.5);
     /* z-index: 3; */
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
   }
 
 #i11{
     transform: translate(130px,2800px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 
 #i12{
     transform: translate(350px,2800px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 
 #i13{
     transform: translate(570px,2800px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 
 #i14{
     transform: translate(790px,2800px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 
 #i15{
     transform: translate(1010px,2800px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 
 #i16{
     transform: translate(1230px,2800px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 
 #i17{
     transform: translate(1100px,2105px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 #i17:hover {
     z-index: 3;
@@ -249,14 +249,14 @@ body{
     transform: scale(1.5);
     /* z-index: 3; */
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
   }
 
 #i18{
     transform: translate(1100px,2350px);
     position: absolute;
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
 }
 #i18:hover {
     z-index: 3;
@@ -265,7 +265,7 @@ body{
     transform: scale(1.5);
     /* z-index: 3; */
     /* border: 3px solid rgb(243, 162, 40); */
-    filter: drop-shadow(2px 2px 5px rgb(236, 164, 32));
+    /* filter: drop-shadow(2px 2px 5px rgb(236, 164, 32)); */
   }
 
 

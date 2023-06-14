@@ -7,7 +7,7 @@
     src:url('font/Gilroy-RegularItalic.ttf') format('truetype');
 }
 body{
-    background-color: rgb(14, 14, 14);
+    background-color: #1E1E1E;
     height: 3500px;
     width: 800px;
     cursor: url(image/mouse2-25.ico),auto;
@@ -48,7 +48,7 @@ body{
 }
 
 #p4{
-    font-family:Gilroy-RegularItalic;
+    font-family:Gilroy-LightItalic;
     transform: translate(850px,300px);
     width: 550px;
     /* text-align: center; */
@@ -58,7 +58,7 @@ body{
 }
 
 #p5{
-    font-family:Gilroy-RegularItalic;
+    font-family:Gilroy-LightItalic;
     transform: translate(850px,350px);
     width: 550px;
     /* text-align: center; */
