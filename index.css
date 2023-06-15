@@ -3,11 +3,11 @@
     transform: translate(-1000px,-1000px) 
 }
 body{
-    background-color: #1E1E1E;
+    background-color: #1e1e1e;
     /* background-size: 100%;
     background-image: url("image/1/4.jpg") */
     height: 2000px;
-    cursor: url(image/mouse2-25.ico),auto;
+    /* cursor: url(image/mouse2-25.ico),auto; */
 }
 @font-face {
     font-family: 'Gilroy-LightItalic';

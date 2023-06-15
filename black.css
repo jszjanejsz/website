@@ -8,7 +8,7 @@
 }
 body{
     background-color: rgb(255, 255, 255);
-    cursor: url(image/mouse2-25.ico),auto;
+    /* cursor: url(image/mouse2-25.ico),auto; */
 }
 #breaking{
    /* left: 200px; */

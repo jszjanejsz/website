@@ -10,7 +10,7 @@ body{
     background-color:#f2f2f2;
     height: 3000px;
     width: 500px;
-    cursor: url(image/mouse2-25.ico),auto;
+    /* cursor: url(image/mouse2-25.ico),auto; */
 }
 
 #la{
